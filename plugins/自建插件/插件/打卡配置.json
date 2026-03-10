@@ -1,0 +1,25 @@
+{
+  "users": [
+    "6376232373",
+    "8036633661",
+    "8185712021",
+    "DouXueFeng",
+    "GongZhangXiShiPo",
+    "6a02540394c1803800031e712da9e51b"
+  
+  ],
+  "commands": {
+    "打卡1": "python3 /opt/ddbot/DD.py 1",
+    "pz": "python3 /opt/ddbot/pz.py",
+    "打卡2": "python3 /opt/ddbot/DK2.py 2",
+    "打卡Z": "python3 /opt/ddbot/DK2_1.py 2",
+    "z": "python3 /opt/ddbot/jietu.py",
+    "d": "python3 /opt/ddbot/jietu1.py",
+    "jtz": "python3 /opt/ddbot/jtz.py",
+    "jtd": "python3 /opt/ddbot/jtd.py",
+    "cld": "adb connect 192.168.31.5:5555",
+    "clz": "adb connect 192.168.31.200:5555",
+    "时间": "date",
+    "状态": "adb devices"
+  }
+}

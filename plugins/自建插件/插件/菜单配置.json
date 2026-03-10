@@ -1,0 +1,31 @@
+{
+  "title": "打卡/控制菜单",
+  "footer": "提示：发送“菜单”可随时查看。",
+  "maxLen": 1800,
+  "allowUsers": [
+    "6376232373",
+    "8036633661",
+    "8185712021",
+    "DouXueFeng",
+    "GongZhangXiShiPo",
+    "6a02540394c1803800031e712da9e51b"],
+  "menu": [
+    { "cmd": "时间", "desc": "查看服务器时间", "example": "时间" },
+    { "cmd": "状态", "desc": "查看设备连接状态", "example": "状态" },
+    { "cmd": "d", "desc": "截图d手机并回传到小飞机", "example": "d" },
+    { "cmd": "z", "desc": "截图z手机并回传到小飞机", "example": "z" },
+    { "cmd": "打卡1", "desc": "执行d打卡", "example": "打卡1" },
+    { "cmd": "打卡2", "desc": "执行z打卡并退出应用", "example": "打卡2" },
+    { "cmd": "打卡Z", "desc": "执行z打卡不退出应用", "example": "打卡2" },
+    { "cmd": "jtd", "desc": "截图d手机并回传到小信", "example": "d" },
+    { "cmd": "cld", "desc": "重连D手机", "example": "cld" },
+    { "cmd": "clz", "desc": "重连Z手机", "example": "clz" }
+  ],
+  "platformMenus": {
+    "wxWork": [
+      { "cmd": "菜单", "desc": "查看命令列表", "example": "菜单" },
+      { "cmd": "d", "desc": "截图并发送到企微", "example": "d" }
+    ]
+  },
+  "groupMenus": {}
+}
